@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LesrêvesdEsteban</title>
+  <title>Le ranch du bonheur</title>
   
  
 
@@ -39,8 +39,8 @@
                 <li class="active"><a href="#main-header">Accueil</a></li>
                 <li><a href="ateliers.php">Ateliers</a></li>
                 <li><a href="temoignages.php">Témoignages</a></li>
-                <li><a href="temoignages.php">Réservations</a></li>
-                <li><a href="#contact">Contact</a></li>
+                
+                <li><a href="#contact"><button type="button" class="btn btn-danger ">Réserver</button></a></li>
                 <!-- <li><a href="view/inscription.php"><button type="button" class="btn btn-danger ">S'inscrire</button></a></li>
                 <li><a href="view/connexion.php"><button type="button" class="btn btn-danger">Se Connecter</button></a></li> -->
                </ul>
@@ -57,10 +57,10 @@
             <div class="col-md-12 wow fadeIn delay-05s">
               <div class="banner-text">
               <img class="" src="img/logo.png">
-                <h2><span>Bienvenue dans la ferme pédagogique et thérapeutique</span></h2>
+               <h2><span>Bienvenue dans la ferme pédagogique et thérapeutique</span></h2>
                 
               </div>
-              <div class="overlay-detail text-center">
+              <div class="overlay-detail text-center banner-text">
                 <a href="#about"><i class="fa fa-angle-down"></i></a>
               </div>
             </div>
@@ -88,25 +88,26 @@
   </section>
   <section id="portfolio" class="section-padding wow fadeInUp delay-05s">
     <div class="container">
-      <div class="row">
+      <div class="row ">
         <div class="col-md-12">
-          <h2 class="title text-center"><span class="deco">Activités</span> </h2>
+          <h2 class="title text-center"><span class="deco">Notre blog</span> </h2>
         </div>
         <div class="col-md-12">
           <div id="myGrid" class="grid-padding ">
-            <div class="col-md-4 col-sm-4 padding-right-zero">
-            <img src="img/2.jpg" class="img-responsive">
-            
+            <div class="col-md-4 col-md-4 padding-right-zero">
+           
+            <img  src="img/10.jpg" class="img-responsive">
             <img src="img/4.jpg" class="img-responsive">
-              
+            <img src="img/11.jpg" class="img-responsive">
             </div>
             <div class="col-md-4 col-sm-4 padding-right-zero">
             <img src="img/6.jpg" class="img-responsive">
-            
+            <img src="img/equipe.jpg" class="img-responsive">
+           
             <img src="img/1.jpg" class="img-responsive">
             </div>
             <div class="col-md-4 col-sm-4 padding-right-zero">
-             
+            <img src="img/9.jpg" class="img-responsive">
               <img src="img/5.jpg" class="img-responsive">
               
              </div>
@@ -175,7 +176,7 @@
           <br>33380 Biganos
 
           <br>06 59 15 83 91
-           <br>association.lesrevesdesteban@gmail.com
+           <br>gouin.asso.lesrevesdesteban@gmail.com
 
            
           </div>
@@ -183,13 +184,13 @@
         <div class="col-md-6 text-right">
           <ul class="social-list">
             <li>
-              <a href="#"><img src="img/instagram.png"></a>
+              <a href="https://www.instagram.com/lesrevesdesteban/"><img src="img/instagram.png"></a>
             </li>
             <li>
               <a href="#"><img src="img/twitter.png"></a>
             </li>
             <li>
-              <a href="#"><img src="img/facebook.png"></a>
+              <a href="https://www.facebook.com/Association-Les-R%C3%AAves-dEst%C3%A9ban-102918671266868"><img src="img/facebook.png"></a>
             </li>
             
           </ul>
