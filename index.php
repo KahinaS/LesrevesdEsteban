@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LesrêvesdEsteban</title>
+  <title>Le ranch du bonheur</title>
   
  
 
@@ -31,16 +31,16 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
-              <a class="navbar-brand" href="#">Les rêves d'Esteban</a>
+              <img class="col-sm-2" src="img/logoranch4.png">
+              <a class="navbar-brand" id='titre' href="#">Le ranch du bonheur</a>
             </div>
-            <div class="collapse navbar-collapse" id="lauraMenu">
+            <div class="collapse navbar-collapse col-sm-2">
               <ul class="nav navbar-nav navbar-right navbar-border">
                 <li class="active"><a href="#main-header">Accueil</a></li>
-                <li><a href="ateliers.php">Ateliers</a></li>
-                <li><a href="temoignages.php">Témoignages</a></li>
-                <li><a href="temoignages.php">Réservations</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li  class="active"><a href="ateliers.php">Nos ateliers</a></li>
+                <li class="active"><a href="actions.php">Nos actions </a></li>
+               
+                <li><a href="aide.php">Nous aider </a></li>
                 <!-- <li><a href="view/inscription.php"><button type="button" class="btn btn-danger ">S'inscrire</button></a></li>
                 <li><a href="view/connexion.php"><button type="button" class="btn btn-danger">Se Connecter</button></a></li> -->
                </ul>
@@ -56,11 +56,11 @@
           <div class="row">
             <div class="col-md-12 wow fadeIn delay-05s">
               <div class="banner-text">
-              <img class="" src="img/logo.png">
-                <h2><span>Bienvenue dans la ferme pédagogique et thérapeutique</span></h2>
+              <img class="w-auto h-auto" src="img/log.png">
+               <h2><span>Bienvenue dans la mini ferme, On vous attend !</span></h2>
                 
               </div>
-              <div class="overlay-detail text-center">
+              <div class="overlay-detail text-center banner-text">
                 <a href="#about"><i class="fa fa-angle-down"></i></a>
               </div>
             </div>
@@ -73,7 +73,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 text-right">
-         
+       
         </div>
         <div class="col-md-6 text-left">
           <div class="pic">
@@ -88,28 +88,50 @@
   </section>
   <section id="portfolio" class="section-padding wow fadeInUp delay-05s">
     <div class="container">
-      <div class="row">
+      <div class="row ">
         <div class="col-md-12">
-          <h2 class="title text-center"><span class="deco">Activités</span> </h2>
+          <h2 class="title text-center"><span class="deco">Notre blog</span> </h2>
         </div>
+        <p class="blog"> Ici on vous dit ou nous trouver ! Nous participons à des évenements marchés ou brocantes... 
+          Nous participons aussi à des manifestations.
+         
+        </p>
         <div class="col-md-12">
           <div id="myGrid" class="grid-padding ">
-            <div class="col-md-4 col-sm-4 padding-right-zero">
-            <img src="img/2.jpg" class="img-responsive">
-            
+            <div class="col-md-4 col-md-4 padding-right-zero">
+           
+            <img  src="img/10.png" class="img-responsive">
             <img src="img/4.jpg" class="img-responsive">
-              
+            <img src="img/11.jpg" class="img-responsive">
             </div>
             <div class="col-md-4 col-sm-4 padding-right-zero">
             <img src="img/6.jpg" class="img-responsive">
-            
+            <img src="img/equipe.jpg" class="img-responsive">
+           
             <img src="img/1.jpg" class="img-responsive">
             </div>
-            <div class="col-md-4 col-sm-4 padding-right-zero">
-             
+            <div class="col-md-4 col-sm-4 padding-right-zero ">
+            <img src="img/9.jpg" class="img-responsive mt-10">
               <img src="img/5.jpg" class="img-responsive">
               
              </div>
+             <div class="col-md-4 col-sm-4 padding-right-zero ">
+            <img src="img/12.jpg" class="img-responsive mt-10">
+              <img src="img/13.jpg" class="img-responsive">
+              
+             </div>
+             <div class="col-md-4 col-sm-4 padding-right-zero">
+            <img src="img/14.jpg" class="img-responsive">
+            <img src="img/equipes.jpg" class="img-responsive">
+           
+           
+            </div>
+            <div class="col-md-4 col-md-4 padding-right-zero">
+           
+           <img  src="img/15.JPG" class="img-responsive">
+           <img src="img/16.JPG" class="img-responsive">
+           
+           </div>
           </div>
         </div>
       </div>
@@ -175,7 +197,7 @@
           <br>33380 Biganos
 
           <br>06 59 15 83 91
-           <br>association.lesrevesdesteban@gmail.com
+           <br>leranchdubonheur@gmail.com
 
            
           </div>
@@ -183,13 +205,13 @@
         <div class="col-md-6 text-right">
           <ul class="social-list">
             <li>
-              <a href="#"><img src="img/instagram.png"></a>
+              <a href="https://www.instagram.com/lesrevesdesteban/"><img src="img/instagram.png"></a>
             </li>
             <li>
               <a href="#"><img src="img/twitter.png"></a>
             </li>
             <li>
-              <a href="#"><img src="img/facebook.png"></a>
+              <a href="https://www.facebook.com/leranchdubonheur33"><img src="img/facebook.png"></a>
             </li>
             
           </ul>

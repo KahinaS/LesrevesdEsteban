@@ -1,4 +1,5 @@
-
+<?php
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,19 +30,19 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a  href="index.php"><img class="col-sm-2" src="img/logoranch4.png"></a>
-              <a class="navbar-brand" id='titre' href="index.php">Le ranch du bonheur</a>
+              
+              <a href="index.php"><img class="col-sm-2" src="img/logoranch4.png"></a>
+              <a href="index.php" id='titre' class="navbar-brand" href="index.php">Le ranch du bonheur</a>
             </div>
             <div class="collapse navbar-collapse col-sm-2">
               <ul class="nav navbar-nav navbar-right navbar-border">
-                <li class="active"><a href="index.php">Accueil</a></li>
-              
-                <li class="active"><a href="actions.php">Nos actions</a> </li>
-                
-               <li class="active"><a href="aide.php">Nous aider</a></li>
-                <!-- <li><a href="#contact">Contact</a></li>
-                <li><a href="view/inscription.php"><button type="button" class="btn btn-danger ">S'inscrire</button></a></li>
-                <li><a href="view/connexion.php"><button type="button" class="btn btn-danger">Se Connecter</button></a></li>  -->
+                <li class="active"><a href="#main-header">Accueil</a></li>
+                <li  class="active"><a href="ateliers.php">Nos ateliers</a></li>
+               
+               
+                <li><a href="aide.php">Nous aider </a></li>
+                <!-- <li><a href="view/inscription.php"><button type="button" class="btn btn-danger ">S'inscrire</button></a></li>
+                <li><a href="view/connexion.php"><button type="button" class="btn btn-danger">Se Connecter</button></a></li> -->
                </ul>
           
          
@@ -55,22 +56,28 @@
           <div class="row">
             <div class="col-md-12 wow fadeIn delay-05s">
               <div class="banner-text">
-              <img class="w-auto h-auto" src="img/log.png">
-               <h2><span>Bienvenue dans la mini ferme, On vous attend !</span></h2>
+              <img class="" src="img/log.png">
+                <h2><span>Bienvenue dans la ferme pédagogique et thérapeutique</span></h2>
                 
               </div>
-              <section id="portfolio" class="section-padding wow fadeInUp delay-05s">
+             
+
+</body>
+<footer class="footer-2 text-center-xs bg--white">
     <div class="container">
+      <!--end row-->
+      <div class="row">
+      <div class="container">
       <div class="row">
       
         <div class="col-12">
-          <h2 class="title text-center"><span class="deco">Présentation des ateliers proposés</span> </h2>
+          <h2 class="title text-center"><span class="deco">Présentation des actions de l'association</span> </h2>
         </div>
         
         <div class="col-md-12">
           <div id="myGrid" class="grid-padding ">
           <div class="card" style="width: 60rem;">
-          <img src="img/16.jpg" class="img-responsive">
+          <img src="img/13.jpg" class="img-responsive">
       <div class="card-body">
       <h4 class="card-title text-center">Allons ramasser des merveilles en fôret !</h4>
       <p class="card-text">Ramassage de mousses, écorces et diverses merveilles de la forêt.  </p>
@@ -82,7 +89,7 @@
      <div class="col-12">
           <div id="myGrid" class="item-center">
           <div class="card" style="width: 60rem;">
-          <img src="img/15.jpg" class="img-responsive">
+          <img src="img/12.jpg" class="img-responsive">
           <div class="card-body">
           <h4 class="card-title text-center">Viens nous montrer ton esprit créatif !</h4>
           <p class="card-text">Créations avec les merveilles ramassés, ainsi que quelques décorations pour offrir, poser dans ta chambre ou bien pour notre boutique. </p>
@@ -93,38 +100,6 @@
 </div>
 </div>
 
-  <div class="col-6">
-        <div class="col-12 rounded mx-auto d-block">
-          <div id="myGrid" class="grid-padding ">
-          <div class="card" style="width: 60rem;">
-          <img src="img/2.jpg" class="img-responsive ">
-          <div class="card-body">
-          <h4 class="card text-center">Rencontre les animaux ! </h4>
-          <p class="card-text">Beaucoup d'amour à revendre par ici ! Ils demandent pleins de caresses et de câlins.</p>
-      
-      </div> 
-     
-     <div class="col-6">
-          <div id="myGrid" class="grid-padding ">
-          <div class="card" style="width: 60rem;">
-          <img src="img/4.jpg" class="img-responsive">
-          <div class="card-body">
-          <h4 class="card-title text-center">Viens nous aider à la ferme !  </h4>
-          <p class="card-text">Apprend à cueillir et à t'occuper des fruits et des légumes de la ferme. On a besoin de ton aide!  </p>
-        
-        
-       
- 
-    </div>
-</div>
-</div>
-</div>
-  </section>
-</body>
-<footer class="footer-2 text-center-xs bg--white">
-    <div class="container">
-      <!--end row-->
-      <div class="row">
         <div class="col-md-6">
           <div class="footer">
           7 Avenue St Martin de Fontenay
